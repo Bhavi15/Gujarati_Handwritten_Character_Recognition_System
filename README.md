@@ -12,9 +12,13 @@ The website allows users to input handwritten Gujarati characters and receive re
 
 ## Modules
 Image Preprocessing: Preparing and cleaning images for feature extraction.
+
 Feature Extraction: Identifying key features from the images for the CNN model.
+
 Creating CNN Module: Designing and implementing the Convolutional Neural Network.
+
 Training and Testing: Training the CNN model on the dataset and evaluating its performance.
+
 Classification and Recognition: Applying the trained model to recognize and classify handwritten characters.
 
 ## Requirements
