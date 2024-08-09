@@ -1,0 +1,212 @@
+/**
+* Template Name: Ninestars - v4.4.0
+* Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+
+}
+
+a {
+  color: #eb5d1e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ef7f4d;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Raleway", sans-serif;
+}
+
+#header {
+  height: 72px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: #5F5FD3;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+#hero {
+  width: 100%;
+  height: 100%;
+  background-color: #323231;
+  border-bottom: 2px solid #fcebe3;
+  margin: 72px 0 -72px 0;
+
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #4e4039;
+}
+#hero h2 {
+  color: #a08f86;
+  margin: 15px 0 0 0;
+  font-size: 24px;
+}
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #eb5d1e;
+}
+#hero .btn-get-started:hover {
+  background: #ef7f4d;
+}
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@media (max-width: 991px) {
+  #hero {
+    height: calc(100vh - 72px);
+  }
+  #hero .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero .hero-img {
+    text-align: center;
+  }
+  #hero .hero-img img {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #hero .hero-img img {
+    width: 70%;
+  }
+}
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+}
+@media (max-height: 600px) {
+  #hero {
+    height: 120vh;
+  }
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #AAAAFF;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 0;
+  line-height: 1px;
+  margin-bottom: 15px;
+  color: #c2b7b1;
+}
+.section-title p {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+  color: #4e4039;
+}
+.section-title p::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #eb5d1e;
+  bottom: 0;
+  left: calc(50% - 30px);
+}
+
+
+
+
+
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
