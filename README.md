@@ -11,11 +11,11 @@ Created a web app for recognizing Gujarati handwritten characters with Python, T
 The website allows users to input handwritten Gujarati characters and receive readable text in return. The system is designed to recognize characters with an accuracy of 93.40%. Note that recognition accuracy depends on the quality of the input image; higher quality images result in better recognition performance.
 
 ## Modules
-1. Image Preprocessing: Preparing and cleaning images for feature extraction.
-2. Feature Extraction: Identifying key features from the images for the CNN model.
-3. Creating CNN Module: Designing and implementing the Convolutional Neural Network.
-4. Training and Testing: Training the CNN model on the dataset and evaluating its performance.
-5. Classification and Recognition: Applying the trained model to recognize and classify handwritten characters.
+Image Preprocessing: Preparing and cleaning images for feature extraction.
+Feature Extraction: Identifying key features from the images for the CNN model.
+Creating CNN Module: Designing and implementing the Convolutional Neural Network.
+Training and Testing: Training the CNN model on the dataset and evaluating its performance.
+Classification and Recognition: Applying the trained model to recognize and classify handwritten characters.
 
 ## Requirements
 1. RAM: 6 GB or 12 GB
